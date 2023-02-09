@@ -1,19 +1,29 @@
 {
-  "name": "demo",
+  "name": "db2graphql_gqty_demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start-server": "node server.js",
+    "generate": "gqty generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@gqty/react": "^2.1.2-alpha-db574a66.0",
+    "apollo-server": "^3.11.1",
+    "db2graphql": "^0.11.0",
+    "gqty": "^2.3.1-alpha-db574a66.0",
+    "graphql": "^16.6.0",
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@gqty/cli": "^3.3.1-alpha-4fa7ef40.0",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6"
   }

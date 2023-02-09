@@ -1,0 +1,12 @@
+{
+  "client": "mysql",
+  "version": "5.1",
+  "debug": true,
+  "connection": {
+    "host" : "localhost",
+    "user" : "root",
+    "password" : "toor",
+    "database" : "db2graphql"
+  },
+  "exclude": []
+}
